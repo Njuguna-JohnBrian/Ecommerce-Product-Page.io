@@ -1,0 +1,276 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://res.cloudinary.com/rjsmedia/image/upload/v1639221987/SneakerCom/favicon-32x32_zomqxk.png"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Frontend Mentor | SneakerCom</title>
+  </head>
+  <body>
+    <!-- ======================= NAV ========================= -->
+    <nav class="nav-container">
+      <div class="nav-left">
+        <img
+          class="mobile-menu"
+          src="https://res.cloudinary.com/rjsmedia/image/upload/v16392219Njuguna-JohnBrian/Project-User-System88/SneakerCom/icon-menu_qnwdhe.svg"
+          alt="mobile-menu"
+        />
+        <h1 class="site-logo">sneakers</h1>
+        <ul class="nav-list-items">
+          <li class="nav-item"><a href="#" class="nav-link">Collections</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Men</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Women</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="cart-icon-container">
+          <div class="item-amt">0</div>
+          <img
+            class="cart-icon"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221988/SneakerCom/icon-cart_e8k2ki.svg"
+            alt="cart"
+          />
+        </div>
+        <img
+          class="img-avatar"
+          src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/image-avatar_ocz3tw.png"
+          alt="avatar"
+        />
+      </div>
+
+      <div class="checkout-dropdown">
+        <div class="checkout-header">
+          <h2>Cart</h2>
+        </div>
+        <div class="checkout-content">
+          <h3 class="checkout-empty">No Items In Your Cart</h3>
+          <div class="checkout-totals">
+            <div class="checkout-item-row">
+              <img
+                class="checkout-item-image"
+                src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/image-product-1-thumbnail_pofyx7.jpg"
+                alt=""
+              />
+              <p>
+                Fall Limited Edition Sneakers $125.00 x
+                <span class="checkout-qty">3</span>
+                <span class="checkout-total">$375.00</span>
+              </p>
+              <img
+                class="checkout-item-icon delete-items"
+                src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221988/SneakerCom/icon-delete_ro8zgu.svg"
+                alt=""
+              />
+            </div>
+            <button class="btn btn-lg btn-orange btn-add-to-checkout2">
+              Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ======================= END NAV ========================= -->
+
+    <!-- ======================= MOBILE NAV ========================= -->
+    <div class="sidebar-nav-container">
+      <div class="sidebar">
+        <span class="close-sidebar">X</span>
+        <ul class="sidebar-nav-list-items">
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-nav-link">Collections</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-nav-link">Men</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-nav-link">Women</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-nav-link">About</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#" class="sidebar-nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ======================= END MOBILE NAV ========================= -->
+    <div class="main-product-container">
+      <div class="mobile-gallery-container">
+        <div class="mobile-img-container">
+          <div class="icon icon-click prev-icon" data-control="prev">
+            <img
+              class="icon-click icon-click-prev"
+              data-control="prev"
+              src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221989/SneakerCom/icon-previous_y3xehg.svg"
+              alt="prev"
+            />
+          </div>
+          <div class="icon icon-click next-icon" data-control="next">
+            <img
+              class="icon-click icon-click-next"
+              data-control="next"
+              src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221989/SneakerCom/icon-next_nwqhup.svg"
+              alt="next"
+            />
+          </div>
+          <img
+            class="mobile-img"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/image-product-1_br3ljj.jpg"
+            alt="sneaker"
+          />
+        </div>
+      </div>
+
+      <div class="desktop-gallery-container">
+        <div class="desktop-gallery-content">
+          <img
+            class="desktop-gallery-main-img"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/image-product-1_br3ljj.jpg"
+            alt="main-img"
+          />
+        </div>
+        <div class="main-content-thumbnails">
+          <img
+            data-img="product-1"
+            class="thumb thumb-1 active"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/image-product-1-thumbnail_pofyx7.jpg"
+            alt=""
+          />
+          <img
+            data-img="product-2"
+            class="thumb thumb-2"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/image-product-2-thumbnail_fd3tkg.jpg"
+            alt=""
+          />
+          <img
+            data-img="product-3"
+            class="thumb thumb-3"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221987/SneakerCom/image-product-3-thumbnail_szltsb.jpg"
+            alt=""
+          />
+          <img
+            data-img="product-4"
+            class="thumb thumb-4"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221987/SneakerCom/image-product-4-thumbnail_lkk65l.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="main-content-wrapper">
+        <h2 class="company-name">Sneaker Company</h2>
+        <h3 class="company-collection">Fall Limited Edition Sneakers</h3>
+        <p class="collection-description">
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they’ll withstand everything
+          the weather can offer.
+        </p>
+        <div class="price-line-bar">
+          <div class="price-line-bar-wrapper">
+            <h2 class="price-line-bar-cost">
+              $125.00 <span class="price-line-bar-span">50%</span>
+            </h2>
+          </div>
+
+          <h3 class="price-mark-down">$250.00</h3>
+        </div>
+        <div class="btn-bar">
+          <div class="inc-dec-controls">
+            <img
+              data-type="dec"
+              class="inc-dec dec"
+              src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221989/SneakerCom/icon-minus_xp9lzf.svg"
+              alt="inc"
+            />
+            <p class="qty-item">0</p>
+            <img
+              data-type="inc"
+              class="inc-dec inc"
+              src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/icon-plus_jzgeiv.svg"
+              alt="dec"
+            />
+          </div>
+          <button class="btn btn-lg btn-orange btn-add-to-checkout">
+            <img
+              class="btn-cart-icon"
+              src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221988/SneakerCom/icon-cart-2_l2yigh.svg"
+              alt=""
+            />
+            Add To Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="master-lb-bg">
+      <div class="lb-content-container">
+        <p class="lb-close">X</p>
+        <div class="lb-img-container">
+          <img
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/image-product-1_br3ljj.jpg"
+            alt=""
+            class="lb-img"
+          />
+          <div
+            class="lb-arrow-controls lb-arrow-prev icon-click"
+            data-control="prev"
+          >
+            <img
+              class="icon-click"
+              data-control="prev"
+              src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221989/SneakerCom/icon-previous_y3xehg.svg"
+              alt="prev"
+            />
+          </div>
+          <div
+            class="lb-arrow-controls lb-arrow-next icon-click"
+            data-control="next"
+          >
+            <img
+              class="icon-click"
+              data-control="next"
+              src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221989/SneakerCom/icon-next_nwqhup.svg"
+              alt="prev"
+            />
+          </div>
+        </div>
+        <div class="main-content-thumbnails">
+          <img
+            data-img="product-1"
+            class="lb-thumb thumb-1 active"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/image-product-1-thumbnail_pofyx7.jpg"
+            alt=""
+          />
+          <img
+            data-img="product-2"
+            class="lb-thumb thumb-2"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221990/SneakerCom/image-product-2-thumbnail_fd3tkg.jpg"
+            alt=""
+          />
+          <img
+            data-img="product-3"
+            class="lb-thumb thumb-3"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221987/SneakerCom/image-product-3-thumbnail_szltsb.jpg"
+            alt=""
+          />
+          <img
+            data-img="product-4"
+            class="lb-thumb thumb-4"
+            src="https://res.cloudinary.com/rjsmedia/image/upload/v1639221987/SneakerCom/image-product-4-thumbnail_lkk65l.jpg"
+            alt=""
+          />
+        </div>
+        <!-- <div class="lb-thumbnails"></div> -->
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
