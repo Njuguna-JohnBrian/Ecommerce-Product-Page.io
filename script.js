@@ -28,20 +28,20 @@ const deleteItems = document.querySelector(".delete-items");
 const appState = {
   images: [
     {
-      thumbnail: "/images/image-product-1-thumbnail.jpg",
-      fullSize: "/images/image-product-1.jpg",
+      thumbnail: "./images/image-product-1-thumbnail.jpg",
+      fullSize: "./images/image-product-1.jpg",
     },
     {
-      thumbnail: "/images/image-product-2-thumbnail.jpg",
-      fullSize: "/images/image-product-2.jpg",
+      thumbnail: "./images/image-product-2-thumbnail.jpg",
+      fullSize: "./images/image-product-2.jpg",
     },
     {
-      thumbnail: "/images/image-product-3-thumbnail.jpg",
-      fullSize: "/images/image-product-3.jpg",
+      thumbnail: "./images/image-product-3-thumbnail.jpg",
+      fullSize: "./images/image-product-3.jpg",
     },
     {
-      thumbnail: "/images/image-product-3-thumbnail.jpg",
-      fullSize: "/images/image-product-3.jpg",
+      thumbnail: "./images/image-product-3-thumbnail.jpg",
+      fullSize: "./images/image-product-3.jpg",
     },
   ],
   counter: 0,
